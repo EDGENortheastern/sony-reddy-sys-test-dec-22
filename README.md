@@ -1,4 +1,4 @@
-# Summative assigment 1, System Testing
+# Summative Assignment One, System Testing
 
 For [nu](https://www.nulondon.ac.uk/)
 
