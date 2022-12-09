@@ -1,6 +1,6 @@
 # Summative Assignment One, System Testing
 
-For [nu](https://www.nulondon.ac.uk/)
+For [Northeastern University](https://www.nulondon.ac.uk/)
 
 ## Getting Started with Create React App
 
