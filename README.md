@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Summative assigment 1, System Testing
+
+For [nu](https://www.nulondon.ac.uk/)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
