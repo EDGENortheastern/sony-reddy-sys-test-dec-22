@@ -8,7 +8,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h1>
           This will be dev environment
-        </p>
+        </h1>
       </header>
     </div>
   );
