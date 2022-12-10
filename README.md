@@ -2,6 +2,11 @@
 
 For [Northeastern University](https://www.nulondon.ac.uk/)
 
+## Environments
+
+[Prod](https://loquacious-lolly-2c8d64.netlify.app/)
+[UAT](https://uat--loquacious-lolly-2c8d64.netlify.app/)
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
