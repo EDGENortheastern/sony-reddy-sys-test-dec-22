@@ -4,8 +4,9 @@ For [Northeastern University](https://www.nulondon.ac.uk/)
 
 ## Environments
 
-[Prod](https://loquacious-lolly-2c8d64.netlify.app/)
-[UAT](https://uat--loquacious-lolly-2c8d64.netlify.app/)
+- [Prod](https://loquacious-lolly-2c8d64.netlify.app/)
+
+- [UAT](https://uat--loquacious-lolly-2c8d64.netlify.app/)
 
 ## Getting Started with Create React App
 
