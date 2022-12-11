@@ -10,7 +10,7 @@ For [Northeastern University](https://www.nulondon.ac.uk/)
 
 ## Git Rules
 - Create a new Git repository for every new project
-   Create a new branch for every new feature
+- Create a **new ticket** for every **new feature** to be tested
    Branch name should be of small alphabits and dash(-)
 - Create a new branch for every new feature
 - One feature - one ticket - one branch - one Pull Request - many commits
