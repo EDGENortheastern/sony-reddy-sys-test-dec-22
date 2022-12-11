@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>
-          This will be dev environment
+          This will be the landing page
         </h1>
       </header>
     </div>
