@@ -1,8 +1,18 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('smoke test', () => { 
+  expect(2+2).toBe(4);
+});
+
+test('renders H1 with dog lovers', () => {
   render(<App />);
-  const linkElement = screen.getByText(/this will be the landing page/i);
-  expect(linkElement).toBeInTheDocument();
+  const headerWelcome = screen.getByText(/this is the page for dog lovers/i);
+  expect(headerWelcome).toBeInTheDocument();
+});
+
+test('renders H2 with welcome', () => {
+  render(<App />);
+  const h2Greeting  = screen.getByText(/Welcome/i);
+  expect(h2Greeting).toBeInTheDocument();
 });
