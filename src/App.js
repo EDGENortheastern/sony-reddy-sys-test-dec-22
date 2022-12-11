@@ -9,6 +9,7 @@ function App() {
         <h1>
           This is the page for dog lovers
         </h1>
+        <h2 className="greeting-h2">Welcome</h2>
       </header>
     </div>
   );
