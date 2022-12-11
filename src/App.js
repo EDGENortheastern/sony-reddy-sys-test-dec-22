@@ -10,6 +10,8 @@ function App() {
           This is the page for dog lovers
         </h1>
         <h2 className="greeting-h2">Welcome</h2>
+          This will be the landing page
+        </h1>
       </header>
     </div>
   );
