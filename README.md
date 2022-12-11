@@ -8,6 +8,15 @@ For [Northeastern University](https://www.nulondon.ac.uk/)
 
 - [UAT](https://uat--loquacious-lolly-2c8d64.netlify.app/)
 
+## Git Rules
+- Create a new Git repository for every new project
+- Create a **new ticket** for every **new feature** to be tested
+- Add acceptance criteria to feature ticket
+- Create a new branch for every new feature
+- One feature - one ticket - one branch - one Pull Request - many commits
+- A branch name should be of small alpha characters and dashes (-)
+- Use Pull requests to merge code to uat and then uat to main in a release
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
