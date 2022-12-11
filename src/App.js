@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>
-          This will be dev environment
+          This is the page for dog lovers
         </h1>
       </header>
     </div>
