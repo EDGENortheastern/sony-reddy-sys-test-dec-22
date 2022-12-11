@@ -9,7 +9,7 @@ For [Northeastern University](https://www.nulondon.ac.uk/)
 - [UAT](https://uat--loquacious-lolly-2c8d64.netlify.app/)
 
 ## Git Rules
-   Create a Git repository for every new project
+- Create a new Git repository for every new project
    Create a new branch for every new feature
    Branch name should be of small alphabits and dash(-)
    Use Pull requests to merge code to Master
