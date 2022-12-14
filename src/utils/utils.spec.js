@@ -20,4 +20,10 @@ describe("testing function convertToNum",()=>{
         expect(convertToNum("67.5")).toBe(67);
         expect(convertToNum("54.8")).toBe(54);
     })
+    test("operation typeof works",()=>{
+        expect(typeof convertToNum("50")).toBe('number');
+        expect(typeof ("true")).toBe('string');
+    
+        
+    })
 })
