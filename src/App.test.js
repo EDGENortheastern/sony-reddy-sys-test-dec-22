@@ -11,6 +11,6 @@ test('renders H1 with dog lovers', () => {
 
 test('renders H2 with welcome', () => {
   render(<App />);
-  const h2Greeting  = screen.getByText(/Welcome/i);
+  const h2Greeting  = screen.getByText(/Enter a number to square/i);
   expect(h2Greeting).toBeInTheDocument();
 });
