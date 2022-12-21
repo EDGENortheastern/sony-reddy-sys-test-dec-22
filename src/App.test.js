@@ -1,9 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('smoke test', () => { 
-  expect(2+2).toBe(4);
-});
+
 
 test('renders H1 with dog lovers', () => {
   render(<App />);
