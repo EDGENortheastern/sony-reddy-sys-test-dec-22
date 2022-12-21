@@ -1,29 +1,36 @@
 import logo from './images/logopic.svg';
 import { useState } from 'react';
-import {add2} from './utils/utils';
+import { square2 } from './utils/utils';
 import './App.css';
 
-function App() {
-  let [userNumber,setUserNumber]=useState("");
- 
-  const acceptInPut=(element)=>{
-    setUserNumber(element.target.value);
-  }
-  console.log(userNumber)
+const App = () => {
+  const [Number, setNumber] = useState('');
+
+  const acceptInPut = (element) => {
+    setNumber(element.target.value);
+
+    console.log(element.target.value);
+  };
+  const handleClick = (Number) => {
+    setNumber(Number);
+  };
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>
-          This is the page for dog lovers
+        When a number has been multiplied by itself
         </h1>
-        <h2 className="greeting-h2">Enter a number to square</h2>
+        <h2 className="greeting-h2">Type a number to find the square</h2>
         <input
           type="number" 
           id="input-box"
           onChange={acceptInPut}
+          value={Number}
         />
-        <p>result {add2(userNumber)}</p>
+        <p>Result {square2(Number)}</p> 
+        <button onClick={handleClick}>Clear</button>
+
       </header>
     </div>
   );
