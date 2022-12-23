@@ -14,3 +14,11 @@ test('renders H2 with welcome', () => {
   const h2Greeting  = screen.getByText(/Type a number to find the square/i);
   expect(h2Greeting).toBeInTheDocument();
 });
+
+test('Check clear button on home page', () => {
+  render(<App />);
+  const button  = screen.getByText(/clear/i);
+  expect(button).toBeInTheDocument();
+});
+
+    
