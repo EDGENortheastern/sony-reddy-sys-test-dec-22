@@ -2,7 +2,8 @@
 
 For [Northeastern University](https://www.nulondon.ac.uk/)
 
-https://user-images.githubusercontent.com/117585807/208923802-97881808-bffa-45ff-8334-4a82f05d111a.png
+![Alt text](https://user-images.githubusercontent.com/117585807/208923802-97881808-bffa-45ff-8334-4a82f05d111a.png)
+
 
 # Project on Squared
 
@@ -12,7 +13,7 @@ you enter.As soon as you type a number it will show the result by multiplying it
 
 ## 📂 Project Management 
 
-https://user-images.githubusercontent.com/117585807/208953525-c6e8e833-3873-4db6-8c76-56c152c48bd7.png
+![Alt text](https://user-images.githubusercontent.com/117585807/208953525-c6e8e833-3873-4db6-8c76-56c152c48bd7.png)
 
 - We used git project tracker.Project boards on GitHub AE help to organize and prioritize our work. We can create project boards for specific feature work, comprehensive roadmaps, or even release checklists. With project boards, We have the flexibility to create customized workflows that suit our needs.
 
@@ -59,7 +60,7 @@ The npm install command will install all the project dependencies defined in the
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:3000] to view it in your browser.
 
 5. The project dependencies have been installed, and the app is now running. Next, open a new terminal and launch the tests with the following command:
 
@@ -107,14 +108,14 @@ The team used regression testing to maintain code base consistency. Regression t
 ### Testing Logic
 Jest is an javascript testing framework designed with simplicity in mind and Jest supports projects coded using Babel, Typescript, Node, React, Angular, Vue and more; Making Jest an ideal testing framework for our project. Using Jest, the team worked together to produce testing blocks that lead to 90-100% code coverage within a short period of time. Using Jest is beneficial for this project because unit testing using Jest allows us to make our project more agile as we are already confident that the code we have will not break easily 
 
-https://user-images.githubusercontent.com/117585807/209441254-3c85d0b4-cc9c-4809-bf74-1b2da83d83eb.png
+![Alt text](https://user-images.githubusercontent.com/117585807/209441254-3c85d0b4-cc9c-4809-bf74-1b2da83d83eb.png)
 
 
 ## Performance and Accessibility Testing
 
- We used Google Lighthouse to test the performance of our website.Google Lighthouse is an open source tool for auditing and improving the quality and performance of your website. It's a popular choice due to its versatility and ability to measure different areas such as web performance, accessibility, best practices, SEO, and progressive web app
+We used Google Lighthouse to test the performance of our website.Google Lighthouse is an open source tool for auditing and improving the quality and performance of your website. It's a popular choice due to its versatility and ability to measure different areas such as web performance, accessibility, best practices, SEO, and progressive web app
 
- Performance rating -The site performance score of 100 indicates that it is highly optimised, and as a result, it will provide a streamlined and smoother experience, improving the user's overall experience while using our website. This also lowers the bounce rate of users who attempt to access the website in case it takes too long to load. The overall user experience is harmed by subpar performance, which also reduces the draw to stick around.
+Performance rating -The site performance score of 100 indicates that it is highly optimised, and as a result, it will provide a streamlined and smoother experience, improving the user's overall experience while using our website. This also lowers the bounce rate of users who attempt to access the website in case it takes too long to load. The overall user experience is harmed by subpar performance, which also reduces the draw to stick around.
 
 Accessibility rating -   The website's accessibility grade of 81 enhances our SEO performance and makes it simpler for all users, regardless of age, to use the platform. 
 
@@ -122,7 +123,7 @@ Best practices rating - The website's design appears to be straightforward and s
 
 Search engine optimisation (SEO) - The website's search engine optimization (SEO) score of 100 indicates that it has a design that draws in higher-quality internet traffic and that this traffic will come spontaneously.
 
-https://user-images.githubusercontent.com/117585807/209473207-2f4b6a00-ef51-420d-b713-a31b59b8a1ac.png
+![Alt text](https://user-images.githubusercontent.com/117585807/209473207-2f4b6a00-ef51-420d-b713-a31b59b8a1ac.png)
 
 ## Manual testing:
 Manual testing was completed and documented using google docs.
@@ -132,7 +133,7 @@ Although the agile approach towards software development is continuously demandi
 
 
 ## Continuous Integration / Continuous Deployment
-https://user-images.githubusercontent.com/90607671/150118179-7c55890f-1df7-4d87-b105-1cdcc8d71111.png
+![Alt text](https://user-images.githubusercontent.com/90607671/150118179-7c55890f-1df7-4d87-b105-1cdcc8d71111.png)
 
 ![Alt text](https://user-images.githubusercontent.com/117585807/209474267-803b3b5b-7eb3-49c3-8fd3-ed0d074dd419.png)
 
