@@ -40,42 +40,44 @@ This project requires npm to execute the files, so ensure that it is installed
 
 ### 1. To know node & npm are installed run below command on terminal
 
-```sh node -v```
-```sh npm -v```
+``` node -v ```
+
+``` npm -v ```
 
 ### 2. To clone the project from Github, open your terminal and run the following command:
 
-```sh git clone https://github.com/EDGENortheastern/sony-reddy-sys-test-dec-22.git```
+``` git clone https://github.com/EDGENortheastern/sony-reddy-sys-test-dec-22.git```
 
 Navigate to the folder you just cloned to find the code.
 
 ### 3. Install the project dependencies:
 
-```sh npm install```
+``` npm install ```
 
 The npm install command will install all the project dependencies defined in the package.json file.
 
 ### 4. After installing the dependencies, you can either view the deployed version of the app or you can run the app locally with the following command:
 
-```sh npm start```
+``` npm start ```
 
 Runs the app in the development mode.\
 Open [http://localhost:3000] to view it in your browser.
 
 ### 5. The project dependencies have been installed, and the app is now running. Next, open a new terminal and launch the tests with the following command:
 
-```sh npm test```
-```sh a```
+``` npm test ```
+
+``` a ```
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 5.view full tests and code coverage:
 
-```sh npm test -- --coverage --watchAll=false```
+``` npm test -- --coverage --watchAll=false ```
 
 6.React configs in-depth and detach from react-scripts:
-```sh $ npm run eject ```
+``` $ npm run eject ```
 
 **Note: this is a one-way operation. Once you eject, you can't go back!
 If you aren't satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
