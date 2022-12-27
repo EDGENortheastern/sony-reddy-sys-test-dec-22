@@ -133,7 +133,7 @@ Manual testing can never be avoided entirely as it is a continuous process that 
 
 Although the agile approach towards software development is continuously demanding a shift towards test automation, manual testing will always be essential. In fact, manual testing is a good way to assess aesthetic aspects relevant to end-users such as how well the web elements render, how easy it is to navigate through an application, and so on.
 
-Find test cases [here].(https://docs.google.com/spreadsheets/d/1hXknYGFl_Fq0X1u9uD0wKegzHCJ8oGn0EzNPjUuC0O0/edit?usp=sharing)
+Find test cases [here](https://docs.google.com/spreadsheets/d/1hXknYGFl_Fq0X1u9uD0wKegzHCJ8oGn0EzNPjUuC0O0/edit?usp=sharing)
 
 ## Continuous Integration / Continuous Deployment
 ![Alt text](https://user-images.githubusercontent.com/90607671/150118179-7c55890f-1df7-4d87-b105-1cdcc8d71111.png)
