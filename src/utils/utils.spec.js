@@ -1,4 +1,5 @@
 import {convertToNum} from "./utils";
+import {Add} from "./utils";
 
 test("that utils tests are working",()=>{
     expect(0).toBeFalsy();
@@ -23,7 +24,21 @@ describe("testing function convertToNum",()=>{
     test("operation typeof works",()=>{
         expect(typeof convertToNum("50")).toBe('number');
         expect(typeof ("true")).toBe('string');
-    
-        
+    })
+    test("should remove any non-numaric char ",()=>{
+        expect(convertToNum("3rt")).toBe(3);
+    })
+    test('passes when value is NaN', () => {
+        expect(NaN).toBeNaN();
+        expect(1).not.toBeNaN();
+    })
+    test('test adding two positive nums', ()=>{
+        expect(Add(4, 5)).toBe(9);
+    })
+    test('test adding two digit positive nums', ()=>{
+        expect(Add(20, 34)).toBe(54);
+    })
+    test("given 2 and -2 as arguments, returns 0", ()=>{
+        expect(Add(2, -2)).toEqual(0);
     })
 })

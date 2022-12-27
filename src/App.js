@@ -1,6 +1,6 @@
 import logo from './images/logopic.svg';
 import { useState } from 'react';
-import { square2 } from './utils/utils';
+import { square } from './utils/utils';
 import './App.css';
 
 const App = () => {
@@ -28,7 +28,7 @@ const App = () => {
           onChange={acceptInPut}
           value={Number}
         />
-        <p>Result {square2(Number)}</p> 
+        <p>Result {square(Number)}</p> 
         <button onClick={handleClick}>Clear</button>
 
       </header>
