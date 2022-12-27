@@ -72,19 +72,20 @@ Open [http://localhost:3000] to view it in your browser.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-5.view full tests and code coverage:
+### 7.view full tests and code coverage:
 
 ``` npm test -- --coverage --watchAll=false ```
 
-6.React configs in-depth and detach from react-scripts:
-``` $ npm run eject ```
+### 8.React configs in-depth and detach from react-scripts:
+
+``` npm run eject ```
 
 **Note: this is a one-way operation. Once you eject, you can't go back!
 If you aren't satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except eject will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 You don't have to ever use eject. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Coding Pratice
+# Coding Pratice
 
 ### Naming conventions
 Working with React, we are generally using JSX (JavaScript Extension) files. Any component that we create for React should therefore be  camel case. This translates to names without spaces and the capitalizing the first letter of every second word.The team also made sure the code had the correct indentatiouts throughout the entire code.
@@ -131,7 +132,7 @@ Manual testing was completed and documented using google docs.
 Manual testing can never be avoided entirely as it is a continuous process that requires human verification at regular intervals throughout the software development lifecycle. As a result, it’s essential for teams to find the right balance between manual and automated tests.
 
 Although the agile approach towards software development is continuously demanding a shift towards test automation, manual testing will always be essential. In fact, manual testing is a good way to assess aesthetic aspects relevant to end-users such as how well the web elements render, how easy it is to navigate through an application, and so on.
-
+Find test cases [here](https://docs.google.com/spreadsheets/d/1hXknYGFl_Fq0X1u9uD0wKegzHCJ8oGn0EzNPjUuC0O0/edit?usp=sharing)
 
 ## Continuous Integration / Continuous Deployment
 ![Alt text](https://user-images.githubusercontent.com/90607671/150118179-7c55890f-1df7-4d87-b105-1cdcc8d71111.png)
