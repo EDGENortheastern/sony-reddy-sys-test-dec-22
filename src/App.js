@@ -4,16 +4,17 @@ import { square } from './utils/utils';
 import './App.css';
 
 const App = () => {
-  const [Number, setNumber] = useState('');
+  const [number, setNumber] = useState('');
 
   const acceptInPut = (element) => {
     setNumber(element.target.value);
 
     console.log(element.target.value);
   };
-  const handleClick = (Number) => {
-    setNumber(Number);
+  const handleClick = (number) => {
+    setNumber(number);
   };
+  // This will have two titles that menctioned in h1 & h2
   return (
     <div className="App">
       <header className="App-header">
@@ -23,14 +24,15 @@ const App = () => {
         </h1>
         <h2 className="greeting-h2">Type a number to find the square</h2>
         <input
+         // Creating a input-box to enter the number
           type="number" 
           id="input-box"
           onChange={acceptInPut}
-          value={Number}
+          value={number}
         />
-        <p>Result {square(Number)}</p> 
+        <p>Result {square(number)}</p> 
         <button onClick={handleClick}>Clear</button>
-
+  
       </header>
     </div>
   );
