@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`checks that App Dom renders correctly 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <img
+      alt="logo"
+      className="App-logo"
+      src="logopic.svg"
+    />
+    <h1>
+      When a number has been multiplied by itself
+    </h1>
+    <h2
+      className="greeting-h2"
+    >
+      Type a number to find the square
+    </h2>
+    <input
+      id="input-box"
+      onChange={[Function]}
+      type="number"
+      value=""
+    />
+    <p>
+      Result 
+      NaN
+    </p>
+    <button
+      onClick={[Function]}
+    >
+      Clear
+    </button>
+  </header>
+</div>
+`;
