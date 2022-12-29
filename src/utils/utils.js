@@ -1,7 +1,10 @@
 const convertToNum = (value) => parseInt(value);
-const square2 = (value) => convertToNum(value)*2;
+const square = (Number) => {return Number * Number};
+const Add = (a, b) => { return (a + b) };
+
 export {
     convertToNum,
-    square2
+    square,
+    Add 
     
 };
