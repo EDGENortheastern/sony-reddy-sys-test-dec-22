@@ -149,7 +149,19 @@ Find test cases [here](https://docs.google.com/spreadsheets/d/1hXknYGFl_Fq0X1u9u
 
 ![Alt text](https://user-images.githubusercontent.com/117585807/209474267-803b3b5b-7eb3-49c3-8fd3-ed0d074dd419.png)
 
-Every time we use Netlify to push to the main branch, our website is updated. Additionally, each time a pull request is made as part of our workflow, Netlify looks to see if there are any warnings and generates a preview for that specific pull request. This benefits our team because launching our website with Netlify is really quick and easy, saving time and increasing productivity as a result. You can save even more time by using Netlify to lock onto a main branch for main deployments. It can also deploy other branches and give you a URL to test those deploys, saving you the time it would take you to test your code before merging.
+The live app has been deployed to [Netlify](https://www.netlify.com/), one of the best sites to automate React projects and to create CD pipelines for React projects. Every time some code is merged into either main or uat branches, the Netlify sites update. When changes are merged to uat the uat environment updates here:
+https://uat--loquacious-lolly-2c8d64.netlify.app/
+Every time code is merged into main, the production site updates:
+https://loquacious-lolly-2c8d64.netlify.app/
+
+Moreover, Netlify runs some checks with every Pull Request. As a result, every PR is checked by Netlify for things such as broken links and also by CI (GitHub Actions) that runs all tests suites. Netlify lets developers preview the checks and produces meaningful error messages if something goes wrong.
+
+When code is merged into main, an event known as a release happens. So far, the app had one release. The Pull Request for the release was called release 1.0 and it can be seen here:
+
+https://github.com/EDGENortheastern/sony-reddy-sys-test-dec-22/pull/22
+
+The next release is yet due to happen. The release happens after all manual tests are completed and all features that were due to be released in a sprint are built. 
+
 
 ## GitHub Actions
 ![Alt text](https://user-images.githubusercontent.com/117585807/209474282-e545ad77-ad7a-4e58-b1af-9460ba3262cc.png)
