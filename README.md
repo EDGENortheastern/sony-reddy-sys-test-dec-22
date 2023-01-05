@@ -88,10 +88,10 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ``` npm run eject ```
 
-**Note: this is a one-way operation. Once you eject, you can't go back!
-If you aren't satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except eject will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-You don't have to ever use eject. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Note: This is a one-way procedure, please note. You are unable to return after you eject!
+You can always eject if the build tool and configuration choices don't meet your needs. With this command, you can decouple your project from the single build dependency.
+Instead, all the configuration files and transitive dependencies (such as webpack, Babel, ESLint, etc.) will be copied directly into your project, giving you complete control over them. Every command, with the exception of eject, will continue to function, but they will now point to the copied scripts so you can edit them. You're on your own at this point.
+You're never required to use eject. You shouldn't feel pressured to adopt the curated feature set because it is appropriate for small and middle-sized deployments.
 
 # Coding Pratice
 
