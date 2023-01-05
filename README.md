@@ -88,10 +88,9 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ``` npm run eject ```
 
-**Note: This is a one-way procedure, please note. You are unable to return after you eject!
-You can always eject if the build tool and configuration choices don't meet your needs. With this command, you can decouple your project from the single build dependency.
-Instead, all the configuration files and transitive dependencies (such as webpack, Babel, ESLint, etc.) will be copied directly into your project, giving you complete control over them. Every command, with the exception of eject, will continue to function, but they will now point to the copied scripts so you can edit them. You're on your own at this point.
-You're never required to use eject. You shouldn't feel pressured to adopt the curated feature set because it is appropriate for small and middle-sized deployments.
+**Note: eject is one-way procedure, please note. After you eject,you can't go back!
+If the build tool and configuration options don't work for you, you may always eject. With this command, you can decouple your project from the single build dependency.
+.Every command, with the exception of eject, will continue to function.You're never required to use eject.The chosen feature set is ideal for small and middle-sized deployments, so you shouldn't feel compelled to use it.
 
 # Coding Pratice
 
@@ -111,13 +110,13 @@ In the event that you decide to change the code in the future, you'll prevent an
 We should write code that works as expected and is quick and simple to test.test suffixed test files that are exact copies of the source files. Finding the test files will thereafter be simple.
 
 ## Regression Testing
-Regression testing was utilised by the team to keep the code base consistent. When performing regression testing, a UI component is rendered, a snapshot is taken, and the result is compared to a reference snapshot file kept with the test. If the two snapshots differ, the test will fail because either the change is unexpected or the reference snapshot has to be updated to reflect the new UI component.
+Regression testing was utilised by the team to keep the code base consistent. When performing regression testing, Rendering a UI component, taking a snapshot, and comparing the outcome to a reference snapshot file stored with the test. If the two snapshots diverge, either the change is unexpected or the reference snapshot needs to be updated to reflect the new UI component, causing the test to fail.
 
 
 ## React Testing Library
 
 ### Testing Logic
-For our project, Jest is the best testing framework because it supports projects written in Babel, Typescript, Node, React, Angular, Vue, and other languages. Jest is a javascript testing framework that was created with simplicity in mind. The group used Jest to collaborate on creating testing blocks that quickly achieved 90–100% code coverage. For this project, utilising Jest is advantageous because it enables us to make our project more agile because we are confident that the code we have won't break quickly.
+For our project, Jest is the best testing framework because it supports applications created with languages like Babel, Typescript, Node, React, Angular, and Vue. A javascript testing framework called Jest was developed with a focus on simplicity. This is used to collaborate on creating testing blocks that quickly achieved 90–100% code coverage. For this project, utilising Jest is advantageous because it enables us to make our project more agile because we are confident that the code we have won't break quickly.
 
 ![Alt text](https://user-images.githubusercontent.com/117585807/209441254-3c85d0b4-cc9c-4809-bf74-1b2da83d83eb.png)
 
@@ -132,15 +131,15 @@ Accessibility rating - The platform is easier to use for all users, regardless o
 
 Best practices rating - The best practises grade of 100 indicates that the website's layout is uncomplicated and easy to use.
 
-Search engine optimisation (SEO) - The website has a search engine optimization (SEO) score of 100, which means that its layout attracts higher-quality internet traffic that will arrive on its own.
+Search engine optimisation (SEO) - The website has a score of 100 for SEO, which means that its layout attracts higher-quality internet traffic that will arrive on its own.
 
 ![Alt text](https://user-images.githubusercontent.com/117585807/209473207-2f4b6a00-ef51-420d-b713-a31b59b8a1ac.png)
 
 ## Manual testing:
 Google Docs were used to complete and record the manual testing.
-Since manual testing is a continuous process that necessitates human verification at regular intervals throughout the software development lifecycle, it is impossible to completely avoid it. Teams must therefore strike the ideal mix between manual and automated testing.
+Throughout the software development lifecycle, manual testing process that demands human verification at regular intervals. it is impossible to completely avoid it. Teams must therefore strike the ideal mix between manual and automated testing.
 
-Manual testing will always be necessary, despite the agile approach to software development always advocating a shift toward test automation. In reality, manual testing is a useful method for evaluating user-relevant aesthetic features, such as how smoothly web items render, how simple it is to navigate through an application, etc.
+Manual testing will always be necessary.In fact, manual testing is a helpful technique for assessing user-relevant aesthetic elements, such as how quickly online things render and how easy it is to navigate around an application.
 
 Find test cases [here](https://docs.google.com/spreadsheets/d/1hXknYGFl_Fq0X1u9uD0wKegzHCJ8oGn0EzNPjUuC0O0/edit?usp=sharing)
 
