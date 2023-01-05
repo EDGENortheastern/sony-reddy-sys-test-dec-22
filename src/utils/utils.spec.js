@@ -1,11 +1,13 @@
 import {convertToNum} from "./utils";
-import {Add} from "./utils";
+import {add} from "./utils";
+import { square } from './utils';
+import { div } from "./utils";
 
 test("that utils tests are working",()=>{
     expect(0).toBeFalsy();
 });
 
-describe("testing function convertToNum",()=>{
+describe("testing functions",()=>{
     test("that function returns a number",()=>{
         expect(convertToNum("2")).toBe(2);
         expect(convertToNum("3")).toBe(3);
@@ -33,12 +35,31 @@ describe("testing function convertToNum",()=>{
         expect(1).not.toBeNaN();
     })
     test('test adding two positive nums', ()=>{
-        expect(Add(4, 5)).toBe(9);
+        expect(add(4, 5)).toBe(9);   
     })
-    test('test adding two digit positive nums', ()=>{
-        expect(Add(20, 34)).toBe(54);
+    test('simple decimals', () => {
+        expect(div(2,8)).toBe(0.25, 5);
+    })
+    test("Knowing the length", ()=>{
+        expect([1, 2, 3]).toHaveLength(3);
     })
     test("given 2 and -2 as arguments, returns 0", ()=>{
-        expect(Add(2, -2)).toEqual(0);
+        expect(add(2, -2)).toEqual(0);
     })
+    test('should return 16 for square of 4', () => {
+        const number = square("4");
+        expect(number).toBe(16);
+    });
+    test('should return 64 for square of -8', () => {
+        const number = square("-8");
+        expect(number).toBe(64);
+    });
+    test('should return 0 for square of 0', () => {
+        const number = square("0");
+        expect(number).toBe(0);
+    });
+    test('toBeWithin simple', () => {
+        const example = 1.25
+        expect(Math.round(example)).toBe(1, 2)
+    });
 })

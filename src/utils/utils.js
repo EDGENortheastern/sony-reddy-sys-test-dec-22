@@ -1,10 +1,13 @@
 const convertToNum = (value) => parseInt(value);
-const square = (Number) => {return Number * Number};
-const Add = (a, b) => { return (a + b) };
+const square = (number) => {return number * number};
+const add = (a, b) => { return (a + b) };
+const div = (a, b) => {return (a / b)};
+
 
 export {
     convertToNum,
     square,
-    Add 
+    add,
+    div
     
 };

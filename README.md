@@ -7,7 +7,7 @@ For [Northeastern University](https://www.nulondon.ac.uk/)
 
 # Project on Squared
 
-- A square number is the result when a number has been multiplied by itself. For example, 4 is a square number because it’s 2 lots of 2, or 2 x 2. 
+- When a number is multiplied by itself, the result is a square number. For instance, 8 is a square number since it is equal to four lots of four, or four x four. 
  - This project is about knowing square of the number
 you enter.As soon as you type a number it will show the result by multiplying itself.There is also a clear button to clear the text entered.
 
@@ -15,13 +15,21 @@ you enter.As soon as you type a number it will show the result by multiplying it
 
 ![Alt text](https://user-images.githubusercontent.com/117585807/208953525-c6e8e833-3873-4db6-8c76-56c152c48bd7.png)
 
-- We used git project tracker.Project boards on GitHub AE help to organize and prioritize our work. We can create project boards for specific feature work, comprehensive roadmaps, or even release checklists. With project boards, We have the flexibility to create customized workflows that suit our needs.
+- Git project tracker was employed. Our work is better organised and prioritised thanks to project boards on GitHub AE. For the development of particular features, we can make project boards, thorough roadmaps, or even release checklists. We have the freedom to design unique workflows with project boards that meet our demands.
 
 ## Environments
 
 - [Prod](https://loquacious-lolly-2c8d64.netlify.app/)
 
 - [UAT](https://uat--loquacious-lolly-2c8d64.netlify.app/)
+
+Production -The final destination for all completed and approved work is production servers. When code is put on a production server, it's been given the all-clear to go live. Never work on a production server without using some sort of version control, as there is a great chance that something will go wrong while the product is being used. When a product or production server goes offline, it may sometimes cost a firm a lot of money, which is absolutely not something
+
+The ultimate goal is always to launch a product into production with the fewest number of flaws feasible to guarantee a completely functional  interface and satisfactory customer experience.
+
+UAT - The developers or programmers will deploy their finished product to a test server after they have concluded their work. The team will set up and configure a test server for internal use with the relevant configurations. This makes it possible for the group to access the work for validation. A  Tester is typically used by the internal team to finish the testing step. To verify that the product is operating as it should, the tester will run a variety of use cases. The developer or programmer will be given tasks to complete if the tester finds bugs or other problems.
+
+Here production enviroment is the intial enviroment where the  project started and UAT is the enviroment the application developed for this project.
 
 ## Git Rules
 - Create a new Git repository for every new project
@@ -34,23 +42,23 @@ you enter.As soon as you type a number it will show the result by multiplying it
 
 ## Prerequisities
 
-This project utilizes three main tools: Create React App, Jest, and React Testing Library. Create React App is used to bootstrap a single-page React application. Jest is used as the test runner, and React Testing Library provides test helpers for structuring tests around user interactions.
+Three key tools are used in this project: Create React App, Jest, and React Testing Library. A single-page React application is bootstrapped using Create React App. In order to organise tests around user interactions, Jest is utilised as the test runner while the React Testing Library offers test tools.
 
-This project requires npm to execute the files, so ensure that it is installed 
+Make sure npm is installed because this project needs it to run the files. 
 
-### 1. To know node & npm are installed run below command on terminal
+### 1. Run the following command in a terminal to verify that node and npm are installed.
 
 ``` node -v ```
 
 ``` npm -v ```
 
-### 2. To clone the project from Github, open your terminal and run the following command:
+### 2. Run the following command in your terminal to clone the project from Github:
 
 ``` git clone https://github.com/EDGENortheastern/sony-reddy-sys-test-dec-22.git```
 
 Navigate to the folder you just cloned to find the code.
 
-### 3. Install the project dependencies:
+### 3. Install the project dependencies.
 
 ``` npm install ```
 
@@ -63,7 +71,7 @@ The npm install command will install all the project dependencies defined in the
 Runs the app in the development mode.\
 Open [http://localhost:3000] to view it in your browser.
 
-### 5. The project dependencies have been installed, and the app is now running. Next, open a new terminal and launch the tests with the following command:
+### 5. You can view the deployed version of the app after the dependencies have been installed, or you can use the following command to execute the app locally:
 
 ``` npm test ```
 
@@ -88,50 +96,51 @@ You don't have to ever use eject. The curated feature set is suitable for small
 # Coding Pratice
 
 ### Naming conventions
-Working with React, we are generally using JSX (JavaScript Extension) files. Any component that we create for React should therefore be  camel case. This translates to names without spaces and the capitalizing the first letter of every second word.The team also made sure the code had the correct indentatiouts throughout the entire code.
+We frequently use JSX (JavaScript Extension) files while working with React. Therefore, camel case should be used for every component that we develop for React. This translates to names without spaces and every other word's first letter being capitalised. Additionally, the team ensured that the code was properly indented throughout.
+
+![Alt text](https://user-images.githubusercontent.com/117585807/210009456-a722b6fe-eb78-42f9-9a5a-fd7279127c8b.png)
 
 
 ### Comments
-Attach comments to code only where necessary. This is not only in keeping with React best practices, it also serves two purposes at the same time:
+Only add comments where they are required in the code. In addition to adhering to React best practises, this accomplishes two goals at once:
 
-It’ll keep code visually clutter free.
-You’ll avoid a potential conflict between comment and code, if you happen to alter the code at some later point in time.
+It will keep the code clean and uncluttered.
+In the event that you decide to change the code in the future, you'll prevent any potential conflicts between the comment and the code.
 
 ### Code should execute as expected and be testable
-The code we write should behave as expected, and be testable easily and quickly.Test files identical to the source files with a .test suffix. It’ll then be easy to find the test files.
-
+We should write code that works as expected and is quick and simple to test.test suffixed test files that are exact copies of the source files. Finding the test files will thereafter be simple.
 
 ## Regression Testing
-The team used regression testing to maintain code base consistency. Regression testing creates a snapshot renders a UI component, takes a snapshot, then compares it to a reference snapshot file stored alongside the test. The test will fail if the two snapshots do not match: either the change is unexpected, or the reference snapshot needs to be updated to the new version of the UI component.
+Regression testing was utilised by the team to keep the code base consistent. When performing regression testing, a UI component is rendered, a snapshot is taken, and the result is compared to a reference snapshot file kept with the test. If the two snapshots differ, the test will fail because either the change is unexpected or the reference snapshot has to be updated to reflect the new UI component.
 
 
 ## React Testing Library
 
 ### Testing Logic
-Jest is an javascript testing framework designed with simplicity in mind and Jest supports projects coded using Babel, Typescript, Node, React, Angular, Vue and more; Making Jest an ideal testing framework for our project. Using Jest, the team worked together to produce testing blocks that lead to 90-100% code coverage within a short period of time. Using Jest is beneficial for this project because unit testing using Jest allows us to make our project more agile as we are already confident that the code we have will not break easily 
+For our project, Jest is the best testing framework because it supports projects written in Babel, Typescript, Node, React, Angular, Vue, and other languages. Jest is a javascript testing framework that was created with simplicity in mind. The group used Jest to collaborate on creating testing blocks that quickly achieved 90–100% code coverage. For this project, utilising Jest is advantageous because it enables us to make our project more agile because we are confident that the code we have won't break quickly.
 
 ![Alt text](https://user-images.githubusercontent.com/117585807/209441254-3c85d0b4-cc9c-4809-bf74-1b2da83d83eb.png)
 
 
 ## Performance and Accessibility Testing
 
-We used Google Lighthouse to test the performance of our website.Google Lighthouse is an open source tool for auditing and improving the quality and performance of your website. It's a popular choice due to its versatility and ability to measure different areas such as web performance, accessibility, best practices, SEO, and progressive web app
+In order to evaluate the effectiveness of our website, we used Google Lighthouse. An open source tool called Google Lighthouse can be used to audit and enhance the functionality and quality of your website. Due to its adaptability and capacity for measuring a variety of metrics, including online performance, accessibility, best practises, SEO, and progressive web apps, it is a preferred option.
 
-Performance rating -The site performance score of 100 indicates that it is highly optimised, and as a result, it will provide a streamlined and smoother experience, improving the user's overall experience while using our website. This also lowers the bounce rate of users who attempt to access the website in case it takes too long to load. The overall user experience is harmed by subpar performance, which also reduces the draw to stick around.
+Performance rating - An extremely optimised website will offer a streamlined and seamless experience, enhancing the user's overall experience while using our website, according to the site performance score of 100. Additionally, it reduces the number of users who abandon a website after trying to access it because it is taking too long to load. Poor performance hurts the user experience as a whole and makes it less appealing to stay.
 
-Accessibility rating -   The website's accessibility grade of 81 enhances our SEO performance and makes it simpler for all users, regardless of age, to use the platform. 
+Accessibility rating - The platform is easier to use for all users, regardless of age, thanks to the website's accessibility grade of 81, which also improves our SEO performance.
 
-Best practices rating - The website's design appears to be straightforward and simple to use, as shown by the best practises rating of 100.
+Best practices rating - The best practises grade of 100 indicates that the website's layout is uncomplicated and easy to use.
 
-Search engine optimisation (SEO) - The website's search engine optimization (SEO) score of 100 indicates that it has a design that draws in higher-quality internet traffic and that this traffic will come spontaneously.
+Search engine optimisation (SEO) - The website has a search engine optimization (SEO) score of 100, which means that its layout attracts higher-quality internet traffic that will arrive on its own.
 
 ![Alt text](https://user-images.githubusercontent.com/117585807/209473207-2f4b6a00-ef51-420d-b713-a31b59b8a1ac.png)
 
 ## Manual testing:
-Manual testing was completed and documented using google docs.
-Manual testing can never be avoided entirely as it is a continuous process that requires human verification at regular intervals throughout the software development lifecycle. As a result, it’s essential for teams to find the right balance between manual and automated tests.
+Google Docs were used to complete and record the manual testing.
+Since manual testing is a continuous process that necessitates human verification at regular intervals throughout the software development lifecycle, it is impossible to completely avoid it. Teams must therefore strike the ideal mix between manual and automated testing.
 
-Although the agile approach towards software development is continuously demanding a shift towards test automation, manual testing will always be essential. In fact, manual testing is a good way to assess aesthetic aspects relevant to end-users such as how well the web elements render, how easy it is to navigate through an application, and so on.
+Manual testing will always be necessary, despite the agile approach to software development always advocating a shift toward test automation. In reality, manual testing is a useful method for evaluating user-relevant aesthetic features, such as how smoothly web items render, how simple it is to navigate through an application, etc.
 
 Find test cases [here](https://docs.google.com/spreadsheets/d/1hXknYGFl_Fq0X1u9uD0wKegzHCJ8oGn0EzNPjUuC0O0/edit?usp=sharing)
 
@@ -140,12 +149,12 @@ Find test cases [here](https://docs.google.com/spreadsheets/d/1hXknYGFl_Fq0X1u9u
 
 ![Alt text](https://user-images.githubusercontent.com/117585807/209474267-803b3b5b-7eb3-49c3-8fd3-ed0d074dd419.png)
 
-Our website is updated every time we push to the main branch using Netlify, and whenever a pull request is created as part of our workflow, Netlify also checks to see if there are any warnings and creates a preview for that particular pull request. This is advantageous for our team because using netlify to launch our website is exceptionally quick and simple, saving time and raising productivity as a result. With Netlify, you may lock onto a main branch for main deployments, which will save you even more time. In order to save the time it takes you to test your code before merging, it can also deploy other branches and provide you with a URL to test those deploys.
+Every time we use Netlify to push to the main branch, our website is updated. Additionally, each time a pull request is made as part of our workflow, Netlify looks to see if there are any warnings and generates a preview for that specific pull request. This benefits our team because launching our website with Netlify is really quick and easy, saving time and increasing productivity as a result. You can save even more time by using Netlify to lock onto a main branch for main deployments. It can also deploy other branches and give you a URL to test those deploys, saving you the time it would take you to test your code before merging.
 
 ## GitHub Actions
 ![Alt text](https://user-images.githubusercontent.com/117585807/209474282-e545ad77-ad7a-4e58-b1af-9460ba3262cc.png)
 
-Every time code is pushed or a request is made, GitHub Actions is used to automate the test cycle. The team may now design procedures to deploy our merged pull requests to production or to build each pull request before it is added to the repository. Additionally, the team uses GitHub Actions to enhance team productivity by automatically adding the necessary labels.
+GitHub Actions are used to automate the test cycle each time code is pushed or a request is submitted. Now that our merged pull requests have been put to production, the team may create processes to build each pull request before it is added to the repository. Additionally, by automatically adding the required labels, the team employs GitHub Actions to improve team efficiency.
 
 ### For additional examples of GitHub Actions click here
 
